@@ -9,25 +9,24 @@
 	<body>
 		<div class="container">
 			<div class="sidebar">
-				<ul>
-					<ul class="tab_row">
+				<ul class="tab-section">
+					<ul class="tab">
 						<li>
 							<img
 								src="img/view-dashboard.svg"
-								alt="dashboard image"
-								id="large-image" />
+								alt="dashboard image" />
 						</li>
 						<li id="large_text">Dashboard</li>
 					</ul>
 				</ul>
-				<ul>
-					<ul class="tab_row">
+				<ul class="tab-section">
+					<ul class="tab">
 						<li>
 							<img src="img/home-account.svg" alt="home image" />
 						</li>
 						<li>Home</li>
 					</ul>
-					<ul class="tab_row">
+					<ul class="tab">
 						<li>
 							<img
 								src="img/account-outline.svg"
@@ -35,7 +34,7 @@
 						</li>
 						<li>Profiles</li>
 					</ul>
-					<ul class="tab_row">
+					<ul class="tab">
 						<li>
 							<img
 								src="img/message-badge-outline.svg"
@@ -43,13 +42,13 @@
 						</li>
 						<li>Messages</li>
 					</ul>
-					<ul class="tab_row">
+					<ul class="tab">
 						<li>
 							<img src="img/history.svg" alt="history image" />
 						</li>
 						<li>History</li>
 					</ul>
-					<ul class="tab_row">
+					<ul class="tab">
 						<li>
 							<img
 								src="img/calendar-check.svg"
@@ -57,7 +56,7 @@
 						</li>
 						<li>Tasks</li>
 					</ul>
-					<ul class="tab_row">
+					<ul class="tab">
 						<li>
 							<img
 								src="img/account-group-outline.svg"
@@ -67,8 +66,8 @@
 					</ul>
 				</ul>
 
-				<ul>
-					<ul class="tab_row">
+				<ul class="tab-section">
+					<ul class="tab">
 						<li>
 							<img
 								src="img/cog-outline.svg"
@@ -76,13 +75,13 @@
 						</li>
 						<li>Settings</li>
 					</ul>
-					<ul class="tab_row">
+					<ul class="tab">
 						<li>
 							<img src="img/face-agent.svg" alt="support image" />
 						</li>
 						<li>Support</li>
 					</ul>
-					<ul class="tab_row">
+					<ul class="tab">
 						<li>
 							<img
 								src="img/message-badge-outline.svg"
@@ -94,31 +93,71 @@
 				<div></div>
 			</div>
 			<div class="content">
-				<div class="nav">
-					<div class="header1">
-						<p>img</p>
+				<div class="header1">
+					<div class="search">
+						<img src="img/magnify.svg" alt="maginying glass" />
 						<input type="search" placeholder="Search..." />
-						<p>img/button</p>
-						<p>avatar</p>
-						<p>username</p>
 					</div>
-					<div class="header2">
-						<div class="user-information">
-							<img
-								id="avatar"
-								src="img/face-man-shimmer-outline.svg"
-								alt="Avatar" />
-							<span class="greetings">Hi there,</span>
-							<span class="username">username</span>
-						</div>
-						<div class="buttons">
-							<button>New</button>
-							<button>Upload</button>
-							<button>Share</button>
-						</div>
+					<div class="user-nav">
+						<img
+							src="img/bell-badge-outline.svg"
+							alt="notification icon"
+							style="width: 5%" />
+						<img
+							src="img/face-man-shimmer-outline.svg"
+							alt="avatar"
+							style="width: 8%" />
+						<p class="bold larger">TurtleTooFast</p>
 					</div>
 				</div>
-				<div class="menu"></div>
+				<div class="header2">
+					<div class="user-information">
+						<img
+							id="avatar"
+							src="img/face-man-shimmer-outline.svg"
+							alt="Avatar"
+							style="width: 15%" />
+						<div class="column">
+							<span class="greetings">Hi there,</span>
+							<span class="username bold larger"
+								>TurtleTooFast</span
+							>
+						</div>
+					</div>
+					<div class="buttons">
+						<button>New</button>
+						<button>Upload</button>
+						<button>Share</button>
+					</div>
+				</div>
+				<div class="menu">
+					<div class="menu-header">
+						<span>Your Project</span>
+						<span>Annoucements</span>
+					</div>
+					<div class="projects">
+						<div>Project1</div>
+						<div>Project2</div>
+						<div>Project3</div>
+						<div>Project4</div>
+						<div>Project5</div>
+						<div>Project6</div>
+					</div>
+					<div class="menu-sidebar">
+						<div class="news">
+							<p class="smaller">
+								Our site is currently undergoing scheduled
+								maintenance to improve your experience. We
+								apologize for any inconvenience and appreciate
+								your patience. We are performing essential
+								updates to enhance our services. Please bear
+								with us as we work to bring you a better
+								browsing experience.
+							</p>
+						</div>
+						<div class="trending">Trending</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</body>
