@@ -126,8 +126,36 @@ html {
 	height: 100%;
 }
 
-.projects > div {
-	background-color: aqua;
+.card {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	/*Make it look nice stuff*/
+	border: 0;
+	border-left: 5px;
+	border-radius: 5px;
+	border-color: orange;
+	border-style: solid;
+	box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.363);
+}
+
+.card .container {
+	margin: 10px;
+
+	display: flex;
+	flex-direction: column;
+}
+
+.images {
+	display: flex;
+	justify-content: flex-end;
+	gap: 10px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+
+.images > img {
+	width: 5%;
 }
 
 .menu-sidebar {
@@ -152,5 +180,14 @@ html {
 }
 
 .smaller {
-	font-size: .5rem;
+	font-size: 0.5rem;
+}
+
+.small {
+	font-size: 0.6rem;
+}
+
+.project-title {
+	font-size: 0.8rem;
+	font-weight: bold;
 }
